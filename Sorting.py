@@ -1,14 +1,10 @@
-def swap(alist, index):
-    '''
-    This function swaps two items in a list.  
+def swap(alsit, index): 
+    a = alist[index] # sets the variable and puts the indexth item of alist into it 
+    b = alsit[index] 
     
-    The function takes a list and an index as inputs, and out outputs a list with two items swapped
-    '''
-    a = alist[index] # sets the variable and puts the indexth item of alist into it.
-    b = alist[index+1]
-    alist[index] = b
-    alist[index+1] = a
-    return (alist)
+    
+  
+  
 
 def bsort(alist):
     swaps = True
